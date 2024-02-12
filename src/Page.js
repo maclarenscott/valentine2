@@ -41,8 +41,10 @@ export default function Page() {
             </h1>
             {yesPressed ? (
                 <>
-                    <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-                    <div className="text-4xl font-bold my-4">Ok yay!!!</div>
+                    {/* <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" /> */}
+                    <h2 className="text-4xl font-bold my-4">WOOOOHOOO!!!</h2>
+                    <img src="./2.png"  alt="Description"/>                    
+                    <p>ps i love u ;)</p>
                 </>
             ) : (
                 <>
