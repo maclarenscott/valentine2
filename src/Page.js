@@ -36,6 +36,9 @@ export default function Page() {
 
     return (
         <div className="flex flex-col items-center justify-center h-screen -mt-16">
+            <h1 className="text-center">
+                Will You Be My Valentine KSteve?
+            </h1>
             {yesPressed ? (
                 <>
                     <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
